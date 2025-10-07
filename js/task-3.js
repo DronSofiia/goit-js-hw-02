@@ -1,6 +1,6 @@
 function checkForSpam(message){
     const normalizeMessange = message.toLowerCase();
-    return normalizeMessange.includes("span") || normalizeMessange.includes("sale")
+    return normalizeMessange.includes("spam") || normalizeMessange.includes("sale")
 }
 console.log(checkForSpam("Latest technology news")); // false
 console.log(checkForSpam("JavaScript weekly newsletter")); // false
